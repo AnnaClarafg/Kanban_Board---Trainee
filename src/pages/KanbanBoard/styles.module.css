@@ -1,0 +1,103 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#kanban_board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:40px;
+    align-items: center;
+}
+
+#kanban_board > div {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.089);
+    
+}
+
+
+.kanban_task {
+    display: flex;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    gap: 5px;
+}
+
+.kanban_task > img {
+    height: 10px;
+    width: 10px;
+}
+
+.kanban_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.kanban_titulo > div {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+#titulo_to_do {
+    background-color: rgb(241, 151, 151);
+}
+
+#titulo_in_progress {
+    background-color: rgb(245, 245, 20)
+}
+
+#titulo_test {
+    background-color: rgb(149, 149, 235);
+}
+
+#titulo_finish {
+    background-color: rgb(155, 253, 155);
+}
+
+
+
+.kanban_to_do {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(196, 56, 56);
+}
+
+.kanban_in_progress {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(223, 223, 43);
+}
+
+.kanban_test {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(67, 67, 226);
+}
+
+.kanban_finish {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(40, 211, 40);
+}
+

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: 80vh;
+    width: 100%;
+    overflow-y: auto;
+    align-items: center;
+
+}
+
+.task {
+    display: flex;
+    height: 80px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.task > input {
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: rgb(170, 157, 157);
+}
+
+.task img {
+    height: 15px;
+    width: 15px;
+}
